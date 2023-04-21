@@ -167,8 +167,8 @@ aside {
     margin-right: 10px;
 }
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
+// @import "bootstrap-sprockets";
+// @import "bootstrap";
 /* mixins, variables, etc. */
 $gray-medium-light: #eaeaea;
 
@@ -218,7 +218,27 @@ error_explanation {
     }
 }
 
+.checkbox {
+    margin-top: -10px;
+    margin-bottom: 10px;
+
+    span {
+        margin-left: 20px;
+        font-weight: normal;
+    }
+}
+
+#session_remember_me {
+    width: auto;
+    margin-left: 0;
+}
+
 /* Dropdown menu */
 .dropdown-menu.active {
     display: block;
+    background-color: #bbb;
+}
+
+.dropdown-menu {
+    background-color: #333;
 }
