@@ -13,6 +13,9 @@ gem "sassc-rails", "2.1.2"
 gem 'rails-controller-testing'
 gem "bcrypt", "3.1.18"
 gem "byebug"
+gem "faker"
+gem "will_paginate"
+gem "bootstrap-will_paginate"
 
 
 # Use mysql as the database for Active Record
