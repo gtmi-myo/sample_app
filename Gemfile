@@ -16,6 +16,8 @@ gem "byebug"
 gem "faker"
 gem "will_paginate"
 gem "bootstrap-will_paginate"
+gem "active_storage_validations"
+gem "image_processing", "1.12.2"
 
 
 # Use mysql as the database for Active Record
