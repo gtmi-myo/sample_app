@@ -2,7 +2,7 @@ require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
 
-host = 'localhost:3000' # Local server
+host = ENV['host'] # Local server
 config.action_mailer.default_url_options = { host: host, protocol:'http' }
 
   # Settings specified here will take precedence over those in config/application.rb.
